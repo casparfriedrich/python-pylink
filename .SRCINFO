@@ -1,0 +1,16 @@
+pkgbase = python-pylink-square
+	pkgdesc = Python interface for SEGGER J-Link
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://pypi.org/project/pylink-square
+	arch = any
+	license = Apache-2.0
+	makedepends = python-setuptools
+	depends = python
+	depends = jlink-software-and-documentation>=6.0b
+	depends = python-psutil
+	source = pylink-square-0.3.0.tar.gz::https://files.pythonhosted.org/packages/source/p/pylink-square/pylink-square-0.3.0.tar.gz
+	sha256sums = ee3208e9a78e7fb81d8bc0b9e81d03ead3cce96a1a6b46caa3b82aad7d2747a8
+
+pkgname = python-pylink-square
+
